@@ -6,7 +6,7 @@
 {
     'name': 'OdooCNSh | Self-Hosted Odoo Hosting Platform | Git Branch Environments | '
             'Multi-Tenant Odoo Cloud | Docker | Deploy on Push | Backup & Restore | Web Shell | Odoo SH | odoo.sh',
-    'version': '20.0.1.0.0',
+    'version': '17.0.1.0.0',
     'category': 'Productivity',
     'summary': 'Run your own Odoo cloud on your own Linux servers: Git branch = environment '
                '(production / staging / development), deploy on push, multi-tenant organizations '
