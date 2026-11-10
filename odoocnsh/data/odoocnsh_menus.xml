@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Opens the bundled product overview (static/description/index.html) in a new tab. -->
+    <record id="action_odoocnsh_overview" model="ir.actions.act_url">
+        <field name="name">OdooCNSh Overview</field>
+        <field name="url">/odoocnsh/static/description/index.html</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_odoocnsh_root"
+              name="OdooCNSh"
+              action="action_odoocnsh_overview"
+              groups="base.group_system"
+              web_icon="odoocnsh,static/description/icon.png"
+              sequence="300"/>
+</odoo>
